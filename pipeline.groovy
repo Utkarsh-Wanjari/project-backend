@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('code-pull'){
             steps {
-                git branch: 'dev', url: 'https://github.com/Utkarsh-Wanjari/project-backend.git'
+                git branch: 'dev', url: 'https://github.com/Utkarsh-Wanjari/project-backend-three-teir-application.git'
             }
         }
         stage('code-Build'){
